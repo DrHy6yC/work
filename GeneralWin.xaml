@@ -1,0 +1,17 @@
+﻿<Window x:Class="Final_wpf.GeneralWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Final_wpf"
+        mc:Ignorable="d"
+        Title="Nomenclature" Height="450" Width="800">
+    <Grid>
+
+        <DataGrid Name="nomenclature"  Height="370" Margin="10,40,0,0"  Width="774" IsReadOnly="True"/>
+        <Button Name="ChangeButton" Content="V" HorizontalAlignment="Left" Margin="40,10,0,0" VerticalAlignment="Top" Width="25" Height="25" Click="ChangeButton_Click"/>
+        <Button Name="DeletButton" Content="-" HorizontalAlignment="Left" Margin="70,10,0,0" VerticalAlignment="Top" Width="25" Height="25" Click="DeletButton_Click"/>
+        <Button Name="AddButton" Content="+" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="25" Height="25" Click="AddButton_Click"/>
+
+    </Grid>
+</Window>
